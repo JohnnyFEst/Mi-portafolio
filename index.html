@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Web</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Estilo.css">
+    </head>
+<body>
+     
+    <header class="header">
+        <a href="#" class="Intro">Mi Portfolio</a>
+    
+        <nav class="navbar">
+            <a href="#Inicio" class="active">Inicio</a>
+            <a href="#SobreMi">Sobre Mi</a>
+            <a href="#Habilidades">Habilidades</a>
+            <a href="#Portafolio">Portafolio</a>
+            <a href="#Contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="Inicio" id="Inicio">
+        <div class="Inicio-content">
+            <h3>Hola, soy </h3>
+            <h1>John <span>Estrada</span></h1>
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com/share/1CU5DigFsc/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/johnestrada0420?igsh=MzF4eHN1ZzR0a2xk"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/johnnyfest20041987?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+
+        <div class="Inicio-img">
+            <img src="Imagenes/YoInicio.png">
+        </div>
+        
+    </section>
+
+    <section class="sobreMi" id="SobreMi">
+        <div class="sobreMi-img">
+            <img src="Imagenes/Yo1.png">
+        </div>
+
+        <div class="sobreMi-content">
+            <h2 class="heading"> Sobre <span>Mi</span></h2>
+            <h3>Frontend Developer</h3>
+            <p id="miParrafo">
+            </p>
+        </div>
+    </section>
+ 
+    <section class="habilidades" id="Habilidades">
+        <h2 class="heading"><span>Habiliades</span></h2>
+
+        <div class="habilidades-container">
+            <div class="habilidades-box">
+                <i class='bx bxl-html5' ></i>
+                <h3>HTML</h3>
+                <div class="progreso" style="--wth:60%"></div>
+                <p>Basico</p>
+            </div>
+            <div class="habilidades-box">
+                <i class='bx bxl-css3' ></i>
+                <h3>CSS</h3>
+                <div class="progreso" style="--wth:60%"></div>
+                <p>Basico</p>
+            </div>
+            <div class="habilidades-box">
+                <i class='bx bxl-javascript' ></i>
+                <h3>JavaScript</h3>
+                <div class="progreso" style="--wth:60%"></div>
+                <p>Básico</p>
+            </div>
+            <div class="habilidades-box">
+                <i class='bx bxl-python' ></i>
+                <h3>PYTHON</h3>
+                <div class="progreso" style="--wth:60%"></div>
+                <p>Básico</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portafolio" id="Portafolio">
+        <h2 class="heading">Ultimos <span>Proyectos</span></h2>
+   
+        <div class="portafolio-container">
+            <div class="portafolio-box">
+                <img src="Imagenes/portafolio.png">
+                <div class="portafolio-layer">
+                    <h4>Mi Portafolio</h4>
+                    <p>Mi portafolio, uso de Html, CSS y JavaScript en GitHub</p>
+                    <a href="https://github.com/JohnnyFEst/Mi-portafolio.git"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="Contacto">
+        <h2 class="heading">Contacto</h2>
+
+        <form method="post" action="mailto:johnnyfest87@gmail.com">
+            <div class="input-box">
+                <input type="text" placeholder="Nombre Completo">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Asunto">
+            </div>
+            <textarea name="" id="texto" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+            
+        </form>
+    </section>
+
+    </section>
+
+    <script src="Portafolio.js"></script>
+    
+</body>
+</html>
